@@ -1,0 +1,17 @@
+name: TSLneko
+version: '1.0-SNAPSHOT'
+main: org.zvbj.tslneko.TSLneko
+api-version: '1.21'
+authors: [ Zvbj ]
+folia-supported: true
+description: TSL服务器の插件
+commands:
+  tslneko:
+    description: 主控指令
+    usage: /<command> reload | make <player>
+    aliases: [tneko]
+    permission: tslneko.admin
+permissions:
+  tslneko.admin:
+    description: 管理 TSLneko
+    default: op

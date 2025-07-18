@@ -1,0 +1,14 @@
+threshold: 5.0               # 余额 ≤ 5 ⇒ 触发猫娘状态
+chat_suffix: "喵~"            # 自动附加在玩家消息结尾
+checkPeriodTicks: 40        # 循环检测间隔 (2s)
+food_restriction: true      # 是否限制猫娘的食物
+
+allowed_foods:              # 在猫娘状态下允许食用的物品 Material 名称
+  - COD
+  - SALMON
+  - TROPICAL_FISH
+
+apply_commands:             # 进入猫娘状态时执行（console 执行）
+  - "lp user %player% parent add catgirl"
+remove_commands:            # 退出猫娘状态时执行
+  - "lp user %player% parent remove catgirl"
