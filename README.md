@@ -6,7 +6,7 @@ TSLneko 是一个为 Minecraft 服务器开发的 Bukkit/Paper 插件，主要�
 
 ### 基本信息
 - **插件名称**: TSLneko
-- **版本**: 1.0-SNAPSHOT
+- **版本**: 1.0
 - **主类**: org.zvbj.tslneko.TSLneko
 - **API版本**: 1.21
 - **作者**: Zvbj
